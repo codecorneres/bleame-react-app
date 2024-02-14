@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import './css/slick-theme.css';
+import './css/slick.css';
+import './js/jquery.min.js';
+import './js/slick.min.js';
+import './js/custom.js';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
