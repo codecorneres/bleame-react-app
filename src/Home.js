@@ -114,86 +114,93 @@ const ProductVideoSection = () => {
             </ul>
             </div>
             <div>
-               <div className="sfrom_text text-center">
-                  <p>Free 2~5 Day Shipping from Nevada, USA 🇺🇸</p>
-               </div>
                 <div className="kaching-bundles">
                     <div className="kaching-bundles__block-title">BUNDLE & SAVE</div>
-                    <label className={`kaching-bundles__bar-container ${checkedItem === "checkbox1" ? 'checked' : ''}`}>
-                    <input
-                    type="checkbox"
-                    value="checkbox1"
-                    checked={checkedItem === "checkbox1"}
-                    onChange={handleCheckboxChange}
-                    />
-                    <div className="kaching-bundles__bar-main">
-                        <div className="kaching-bundles__bar-radio"></div>
-                        <div className="kaching-bundles__bar-content">
-                            <div className="kaching-bundles__bar-content-left">
-                            <div className="kaching-bundles__bar-first-line">
-                                <span className="kaching-bundles__bar-title">1 Pack</span>
+                    <div className='kaching-bundles__bars'> 
+                        <div className='kaching-bundles__bar'>
+                        <label className={`kaching-bundles__bar-container ${checkedItem === "checkbox1" ? 'checked' : ''}`}>
+                            <input
+                            type="checkbox"
+                            value="checkbox1"
+                            checked={checkedItem === "checkbox1"}
+                            onChange={handleCheckboxChange}
+                            />
+                            <div className="kaching-bundles__bar-main">
+                                <div className="kaching-bundles__bar-radio"></div>
+                                <div className="kaching-bundles__bar-content">
+                                    <div className="kaching-bundles__bar-content-left">
+                                    <div className="kaching-bundles__bar-first-line">
+                                        <span className="kaching-bundles__bar-title">1 Pack</span>
+                                    </div>
+                                    </div>
+                                    <div className="kaching-bundles__bar-pricing">
+                                    <div className="kaching-bundles__bar-price">$29</div>
+                                    <s className="kaching-bundles__bar-full-price">$47</s>
+                                    </div>
+                                </div>
                             </div>
-                            </div>
-                            <div className="kaching-bundles__bar-pricing">
-                            <div className="kaching-bundles__bar-price">$29</div>
-                            <div className="kaching-bundles__bar-full-price">$47</div>
+                        </label>
+                    </div>
+                    <div className='kaching-bundles__bar'>
+                    <label className={`kaching-bundles__bar-container ${checkedItem === "checkbox2" ? 'checked' : ''}`}>
+                        <input
+                        type="checkbox"
+                        value="checkbox2"
+                        checked={checkedItem === "checkbox2"}
+                        onChange={handleCheckboxChange}
+                        />
+                        <div className="kaching-bundles__bar-main">
+                            <div className="kaching-bundles__bar-radio"></div>
+                            <div className="kaching-bundles__bar-content">
+                                <div className="kaching-bundles__bar-content-left">
+                                <div className="kaching-bundles__bar-first-line">
+                                    <span className="kaching-bundles__bar-title">Buy 2 Get 1 FREE</span>
+                                </div>
+                                <div className="kaching-bundles__bar-subtitle">+FREE Shipping</div>
+                                </div>
+                                <div className="kaching-bundles__bar-pricing">
+                                <div className="kaching-bundles__bar-price">$48</div>
+                                <s className="kaching-bundles__bar-full-price">$141</s>
+                                </div>
                             </div>
                         </div>
+                    </label>
                     </div>
-                </label>
-                <label className={`kaching-bundles__bar-container ${checkedItem === "checkbox2" ? 'checked' : ''}`}>
-                    <input
-                    type="checkbox"
-                    value="checkbox2"
-                    checked={checkedItem === "checkbox2"}
-                    onChange={handleCheckboxChange}
-                    />
-                    <div className="kaching-bundles__bar-main">
-                        <div className="kaching-bundles__bar-radio"></div>
-                        <div className="kaching-bundles__bar-content">
-                            <div className="kaching-bundles__bar-content-left">
-                            <div className="kaching-bundles__bar-first-line">
-                                <span className="kaching-bundles__bar-title">Buy 2 Get 1 FREE</span>
-                            </div>
-                            <div className="kaching-bundles__bar-subtitle">+FREE Shipping</div>
-                            </div>
-                            <div className="kaching-bundles__bar-pricing">
-                            <div className="kaching-bundles__bar-price">$48</div>
-                            <div className="kaching-bundles__bar-full-price">$141</div>
+                    <div className='kaching-bundles__bar'>
+                    <label className={`kaching-bundles__bar-container ${checkedItem === "checkbox3" ? 'checked' : ''}`}>
+                        <input
+                        type="checkbox"
+                        value="checkbox3"
+                        checked={checkedItem === "checkbox3"}
+                        onChange={handleCheckboxChange}
+                        />
+                        <div className="kaching-bundles__bar-main">
+                            <div className="kaching-bundles__bar-radio"></div>
+                            <div className="kaching-bundles__bar-content">
+                                <div className="kaching-bundles__bar-content-left">
+                                <div className="kaching-bundles__bar-first-line">
+                                    <span className="kaching-bundles__bar-title">Buy 3 Get 2 FREE</span>
+                                </div>
+                                <div className="kaching-bundles__bar-subtitle">+FREE Shipping</div>
+                                </div>
+                                <div className="kaching-bundles__bar-pricing">
+                                <div className="kaching-bundles__bar-price">$65</div>
+                                <s className="kaching-bundles__bar-full-price">$235</s>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </label>
-                <label className={`kaching-bundles__bar-container ${checkedItem === "checkbox3" ? 'checked' : ''}`}>
-                    <input
-                    type="checkbox"
-                    value="checkbox3"
-                    checked={checkedItem === "checkbox3"}
-                    onChange={handleCheckboxChange}
-                    />
-                    <div className="kaching-bundles__bar-main">
-                        <div className="kaching-bundles__bar-radio"></div>
-                        <div className="kaching-bundles__bar-content">
-                            <div className="kaching-bundles__bar-content-left">
-                            <div className="kaching-bundles__bar-first-line">
-                                <span className="kaching-bundles__bar-title">Buy 3 Get 2 FREE</span>
-                            </div>
-                            <div className="kaching-bundles__bar-subtitle">+FREE Shipping</div>
-                            </div>
-                            <div className="kaching-bundles__bar-pricing">
-                            <div className="kaching-bundles__bar-price">$65</div>
-                            <div className="kaching-bundles__bar-full-price">$235</div>
-                            </div>
-                        </div>
-                    </div>
-                </label>
+                    </label>
+                  </div>
+                 </div>
                 </div>
+                <div className="sfrom_text text-center">
+                  <p>Free 2~5 Day Shipping from Nevada, USA 🇺🇸</p>
+               </div>
                <form method="post" action="/cart/add" id="product-form-main-product" acceptCharset="UTF-8" className="form" encType="multipart/form-data" noValidate="novalidate" dataType="add-to-cart-form">
                   <div className="product-form__buttons custom-atc" data-vid="">
                      <button type="submit" name="add" className="product-form__submit button button--full-width button--primary">
-                        <span><span><img className="fingerImage" src={fingerImage}></img></span>Add to Bag</span>
-                        <div className="loading-overlay__spinner hidden">
-                        </div>
+                        <span className='outer-fingerImage'><img className="fingerImage" src={fingerImage}></img></span>
+                        Add to Bag
                      </button>
                   </div>
                </form>
