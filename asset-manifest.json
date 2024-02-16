@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/bleame-react-app/static/css/main.10432bfa.css",
-    "main.js": "/bleame-react-app/static/js/main.a0f0014b.js",
+    "main.css": "/bleame-react-app/static/css/main.92c07ff5.css",
+    "main.js": "/bleame-react-app/static/js/main.c0418ca3.js",
     "static/js/592.f3cbed07.chunk.js": "/bleame-react-app/static/js/592.f3cbed07.chunk.js",
     "static/media/thumb_1.png": "/bleame-react-app/static/media/thumb_1.2dba84dfce54b70bd417.png",
     "static/media/thumb_3.png": "/bleame-react-app/static/media/thumb_3.a58499a83bff7f3ac39e.png",
     "static/media/thumb_2.png": "/bleame-react-app/static/media/thumb_2.c9d265e3e0d605032b19.png",
     "static/media/featured_image.png": "/bleame-react-app/static/media/featured_image.1c182261a1391c9da829.png",
     "index.html": "/bleame-react-app/index.html",
-    "main.10432bfa.css.map": "/bleame-react-app/static/css/main.10432bfa.css.map",
-    "main.a0f0014b.js.map": "/bleame-react-app/static/js/main.a0f0014b.js.map",
+    "main.92c07ff5.css.map": "/bleame-react-app/static/css/main.92c07ff5.css.map",
+    "main.c0418ca3.js.map": "/bleame-react-app/static/js/main.c0418ca3.js.map",
     "592.f3cbed07.chunk.js.map": "/bleame-react-app/static/js/592.f3cbed07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10432bfa.css",
-    "static/js/main.a0f0014b.js"
+    "static/css/main.92c07ff5.css",
+    "static/js/main.c0418ca3.js"
   ]
 }
