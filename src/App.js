@@ -1,34 +1,22 @@
 // import logo from './logo.svg';
 import './App.css';
-// import {
-//   BrowserRouter as Router,
-//   Switch,
-//   Route
-// } from "react-router-dom";
-// import Header from './components/Header';
-import Home from './Home';
-// import Product from './Product';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from './components/Header';
+import Footer from './components/Footer';
+import HomePage from './Home';
+import Product from './components/Product';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <BrowserRouter>
+      <Header />
+        <Routes>
+          <Route path="/bleame-react-app" element={<HomePage />} />
+          <Route path="/bleame-react-app/product" element={<Product />} />
+        </Routes>
+        <Footer />  
+    </BrowserRouter>
   );
 }
-
-// function App() {
-//   return (
-//     <Router>
-//       <div className="Wrapped-sections">
-//         <Header/>
-//         <Switch>
-//           <Route exact path="/"><Home/></Route>
-//           <Route exact path="/product"><Product/></Route>
-//         </Switch>
-//       </div>
-//     </Router>
-//   );
-// }
 
 export default App;
