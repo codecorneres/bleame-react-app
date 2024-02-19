@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/bleame-react-app/static/css/main.92c07ff5.css",
-    "main.js": "/bleame-react-app/static/js/main.c0418ca3.js",
+    "main.css": "/bleame-react-app/static/css/main.f2f01a8b.css",
+    "main.js": "/bleame-react-app/static/js/main.e8fc3516.js",
     "static/js/592.f3cbed07.chunk.js": "/bleame-react-app/static/js/592.f3cbed07.chunk.js",
+    "static/media/Bleame-Logo.jpg": "/bleame-react-app/static/media/Bleame-Logo.20ba161bb6b661908408.jpg",
     "static/media/thumb_1.png": "/bleame-react-app/static/media/thumb_1.2dba84dfce54b70bd417.png",
     "static/media/thumb_3.png": "/bleame-react-app/static/media/thumb_3.a58499a83bff7f3ac39e.png",
     "static/media/thumb_2.png": "/bleame-react-app/static/media/thumb_2.c9d265e3e0d605032b19.png",
     "static/media/featured_image.png": "/bleame-react-app/static/media/featured_image.1c182261a1391c9da829.png",
+    "static/media/slick.svg": "/bleame-react-app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/bleame-react-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/bleame-react-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/bleame-react-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/bleame-react-app/index.html",
-    "main.92c07ff5.css.map": "/bleame-react-app/static/css/main.92c07ff5.css.map",
-    "main.c0418ca3.js.map": "/bleame-react-app/static/js/main.c0418ca3.js.map",
+    "main.f2f01a8b.css.map": "/bleame-react-app/static/css/main.f2f01a8b.css.map",
+    "main.e8fc3516.js.map": "/bleame-react-app/static/js/main.e8fc3516.js.map",
     "592.f3cbed07.chunk.js.map": "/bleame-react-app/static/js/592.f3cbed07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92c07ff5.css",
-    "static/js/main.c0418ca3.js"
+    "static/css/main.f2f01a8b.css",
+    "static/js/main.e8fc3516.js"
   ]
 }
