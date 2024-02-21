@@ -16,6 +16,13 @@
   .text-center{
     text-align: center;
   }
+  .site-header .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #7069bc;
+  }
+  .site-header .nav-pills .nav-link{
+    color: #000;
+  }
   .pro_vid_img_sec {
     background-color: #fafafa;
     padding-top: 50px;

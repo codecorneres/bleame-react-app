@@ -10,7 +10,7 @@ export default function Header() {
   return (
   <section className='site-header'>
     <div className="container">
-      <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <header className="d-flex flex-wrap justify-content-center align-items-center py-3 border-bottom">
         <Link className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none" aria-current="page" to="/bleame-react-app">
           <img src={logo} alt="" width="100" height="auto" className="d-inline-block align-text-top"></img>
         </Link>
@@ -20,6 +20,9 @@ export default function Header() {
           </li>
           <li className="nav-item">
             <Link onClick={() => handleLinkClick('product')} className={`nav-link ${activeLink === 'product' ? 'active' : ''}`} to="/bleame-react-app/product">Product</Link>
+          </li>
+          <li className="nav-item">
+            <Link onClick={() => handleLinkClick('about')} className={`nav-link ${activeLink === 'about' ? 'active' : ''}`} to="/bleame-react-app/about">About Us</Link>
           </li>
         </ul>
       </header>
