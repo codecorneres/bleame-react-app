@@ -21,9 +21,6 @@ export default function Header() {
           <li className="nav-item">
             <Link onClick={() => handleLinkClick('product')} className={`nav-link ${activeLink === 'product' ? 'active' : ''}`} to="/bleame-react-app/product">Product</Link>
           </li>
-          <li className="nav-item">
-            <Link onClick={() => handleLinkClick('about')} className={`nav-link ${activeLink === 'about' ? 'active' : ''}`} to="/bleame-react-app/about">About Us</Link>
-          </li>
         </ul>
       </header>
     </div>
